@@ -4,7 +4,7 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="NewRelic.LicenseKey" value="" />
+      <Setting name="NewRelic.LicenseKey" value="4e3d79cd51e20063b5a45fb2f0282a1f606e6d72" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
