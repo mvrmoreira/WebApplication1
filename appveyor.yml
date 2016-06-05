@@ -18,3 +18,8 @@ deploy:
   #target_profile: Cloud   # optional .cscfg configuration name to deploy with
   #do_not_start_deployment: false
   #recreate_deployment: false
+
+notifications:
+  - provider: Slack
+    url: https://hooks.slack.com/services/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
+    channel: imasters
