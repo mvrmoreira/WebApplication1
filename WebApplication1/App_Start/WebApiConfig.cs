@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace WebApplication1
 {
@@ -12,7 +13,9 @@ namespace WebApplication1
     {
         public static void Register(HttpConfiguration config)
         {
-            // Web API configuration and services
+            // Enabling Cross-Origin Requests
+            var corsConfig = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(corsConfig);
 
             // Web API routes
             config.MapHttpAttributeRoutes();
