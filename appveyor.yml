@@ -11,7 +11,7 @@ deploy:
   storage_account_name: imasters
   storage_access_key:
     secure: lIJqslBE5djNUfAXfkDBFo2JhT9WwBOOiM9DDwZ64AxJgDPW8SJGEir2U81XEp6nOmGU4Vcidf5VyxleWYI6LA==
-  service: myazure-service
+  service: imasters
   slot: production
   deployment_label: $(appveyor_build_version)
   artifact: myservice.cspkg
