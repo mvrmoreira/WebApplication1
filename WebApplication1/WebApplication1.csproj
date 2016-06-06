@@ -135,6 +135,7 @@
     <Compile Include="Manager\SalesManager.cs" />
     <Compile Include="Models\CreateSaleRequest.cs" />
     <Compile Include="Models\CreditCard.cs" />
+    <Compile Include="Models\NixQueueItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
