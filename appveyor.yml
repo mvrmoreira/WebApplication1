@@ -19,3 +19,8 @@ notifications:
   - provider: Slack
     incoming_webhook:
       secure: 1BH4GGM7RvSOVndojmbGfIAdaZxiinCJ+Dz9P1RHbF/s+t98gkepnvBAg9jWdnmW/2mIgdA+iRwrhCchqlte0z4jBu8NKGcaJrAOgI5op88=
+	  
+  - provider: Webhook
+    url: https://api.runscope.com/radar/935c4d05-4fef-4a9f-ba6a-eba808e69e2b/trigger?runscope_environment=dd1622c5-9e9f-4194-a271-72b389a7a313
+    on_build_success: true
+    on_build_failure: false
